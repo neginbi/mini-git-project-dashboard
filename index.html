@@ -1,22 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
     <title>Mini Git Project Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5efe6;
+            color: #3f3428;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fffaf2;
+            border: 1px solid #d8c3a5;
+            border-radius: 18px;
+            box-shadow: 0 6px 18px rgba(80, 60, 40, 0.12);
+        }
+
+        h1 {
+            text-align: center;
+            color: #6f4e37;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #8b7355;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin: 25px 0;
+            padding: 20px;
+            background: #fbf4ea;
+            border-left: 5px solid #c8a97e;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #7a5c3c;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e6d3b3;
+            color: #4a3728;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #8b7355;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Mini Git Project Dashboard</h1>
+    <div class="container">
+        <h1>Mini Git Project Dashboard</h1>
+        <p class="subtitle">Projet réalisé dans le cadre du module Gestion de projet</p>
 
-    <h2>Members</h2>
-    <ul>
-        <li>Negin Bagheri</li>
-        <li>Alex Martin (Fictif)</li>
-    </ul>
+        <section>
+            <h2>Membres du projet</h2>
+            <ul>
+                <li>Negin Bagheri</li>
+                <li>Alex Martin, membre fictif</li>
+            </ul>
+        </section>
 
-    <h2>Project Tasks</h2>
-    <ul>
-        <li>Create repository</li>
-        <li>Create website</li>
-        <li>Configure GitHub Pages</li>
-    </ul>
+        <section>
+            <h2>Objectif du projet</h2>
+            <p>
+                Ce projet a pour objectif de mettre en pratique les outils de gestion de projet
+                avec Git et GitHub : dépôt en ligne, branches, pull requests, issues, milestones,
+                GitHub Pages, tags et submodules.
+            </p>
+        </section>
+
+        <section>
+            <h2>Outils utilisés</h2>
+            <span class="tag">GitHub</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub Pages</span>
+            <span class="tag">Issues</span>
+            <span class="tag">Milestones</span>
+            <span class="tag">Projects</span>
+            <span class="tag">Submodule</span>
+        </section>
+
+        <section>
+            <h2>État du projet</h2>
+            <ul>
+                <li>Dépôt GitHub créé</li>
+                <li>Site web publié en ligne</li>
+                <li>Gestion des tâches avec issues et milestone</li>
+                <li>Tableau de suivi créé avec GitHub Projects</li>
+            </ul>
+        </section>
+
+        <footer>
+            Version 1.0 - Mini Git Project Dashboard
+        </footer>
+    </div>
 </body>
 </html>
